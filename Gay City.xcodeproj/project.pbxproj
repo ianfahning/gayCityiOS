@@ -3,10 +3,49 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		48B12D7D1E3F9668B0EB3E0A /* Pods_Gay_CityTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F3BA185D5525ED9041A9DDA /* Pods_Gay_CityTests.framework */; };
+		7E06F5EE2627F3EA007C5BBA /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E06F5ED2627F3EA007C5BBA /* MenuViewController.swift */; };
+		7E06F5F62627FD63007C5BBA /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E06F5F52627FD63007C5BBA /* CustomCell.swift */; };
+		7E06F5FB2627FE5A007C5BBA /* data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E06F5FA2627FE5A007C5BBA /* data.swift */; };
+		7E09FE04266DD77400A993BC /* ResourceDatabaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E09FE03266DD77400A993BC /* ResourceDatabaseViewController.swift */; };
+		7E09FE062675657500A993BC /* ResourceDatabaseCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E09FE052675657500A993BC /* ResourceDatabaseCustomCell.swift */; };
+		7E09FE082676E38200A993BC /* ResourceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E09FE072676E38200A993BC /* ResourceViewController.swift */; };
+		7E130E86266C1C6500E2C319 /* TrackBallotWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E130E85266C1C6500E2C319 /* TrackBallotWebView.swift */; };
+		7E130E88266C1C9800E2C319 /* FindVoteCenterWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E130E87266C1C9800E2C319 /* FindVoteCenterWebView.swift */; };
+		7E1823D22666017500DA0089 /* TenWaysViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1823D12666017500DA0089 /* TenWaysViewController.swift */; };
+		7E296856263D239800ED0802 /* rokkitt-bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7E06C53326360AF50002D196 /* rokkitt-bold.ttf */; };
+		7E296857263D239B00ED0802 /* rokkitt-regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7E06C53426360B1C0002D196 /* rokkitt-regular.ttf */; };
+		7E2E314D266C13C2009BB33D /* MakeAppointmentWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2E314C266C13C2009BB33D /* MakeAppointmentWebView.swift */; };
+		7E2E314F266C1412009BB33D /* DonateWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2E314E266C1412009BB33D /* DonateWebView.swift */; };
+		7E2E3151266C1496009BB33D /* CheckResultsWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2E3150266C1496009BB33D /* CheckResultsWebView.swift */; };
+		7E2E3153266C14E0009BB33D /* HealthcareEnrollWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2E3152266C14E0009BB33D /* HealthcareEnrollWebView.swift */; };
+		7E2E3155266C1596009BB33D /* PrEPWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2E3154266C1596009BB33D /* PrEPWebView.swift */; };
+		7E2E3157266C15F5009BB33D /* OrcaStudentWebview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2E3156266C15F5009BB33D /* OrcaStudentWebview.swift */; };
+		7E2E3159266C1628009BB33D /* OrcaNonStudentWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2E3158266C1628009BB33D /* OrcaNonStudentWebView.swift */; };
+		7E2E315B266C1722009BB33D /* RegisterToVoteWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2E315A266C1722009BB33D /* RegisterToVoteWebView.swift */; };
+		7E2E315D266C17A3009BB33D /* RequestAbsenteeBallotWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2E315C266C17A3009BB33D /* RequestAbsenteeBallotWebView.swift */; };
+		7E2E315F266C1860009BB33D /* ChangeAddressWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2E315E266C1860009BB33D /* ChangeAddressWebView.swift */; };
+		7E2E3161266C19DB009BB33D /* AccesibleVoting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2E3160266C19DB009BB33D /* AccesibleVoting.swift */; };
+		7E2E3163266C1A1B009BB33D /* FacebookWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2E3162266C1A1B009BB33D /* FacebookWebView.swift */; };
+		7E2E3165266C1A4F009BB33D /* TwitterWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2E3164266C1A4F009BB33D /* TwitterWebView.swift */; };
+		7E2E3167266C1A72009BB33D /* YoutubeWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2E3166266C1A72009BB33D /* YoutubeWebView.swift */; };
+		7E2E3169266C1A9E009BB33D /* InstagramWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2E3168266C1A9E009BB33D /* InstagramWebView.swift */; };
+		7E2E316B266C1AE8009BB33D /* VoterEligibilityWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2E316A266C1AE8009BB33D /* VoterEligibilityWebView.swift */; };
+		7E2E316D266C1B17009BB33D /* CheckRegistrationWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2E316C266C1B17009BB33D /* CheckRegistrationWebView.swift */; };
+		7E2E316F266C1BA3009BB33D /* CompleteRegistrationWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2E316E266C1BA3009BB33D /* CompleteRegistrationWebView.swift */; };
+		7E2E3171266C1BCE009BB33D /* EmailCommunityWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2E3170266C1BCE009BB33D /* EmailCommunityWebView.swift */; };
+		7E390E41267E6ED00094FD89 /* EventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E390E40267E6ED00094FD89 /* EventViewController.swift */; };
+		7E537F56265073F50014E758 /* TestResultsTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E537F55265073F50014E758 /* TestResultsTableController.swift */; };
+		7E537F582651F8A40014E758 /* HealthcareTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E537F572651F8A40014E758 /* HealthcareTableController.swift */; };
+		7E58F0C0268FAD0E00A0B728 /* ResourceDatabaseSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E58F0BF268FAD0E00A0B728 /* ResourceDatabaseSearchView.swift */; };
+		7E58F0C2268FC6CE00A0B728 /* EventWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E58F0C1268FC6CE00A0B728 /* EventWebView.swift */; };
+		7E58F0C42690272400A0B728 /* QCCEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E58F0C32690272400A0B728 /* QCCEventViewController.swift */; };
+		7E58F0C626902B9700A0B728 /* QCCEventDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E58F0C526902B9700A0B728 /* QCCEventDetailsViewController.swift */; };
+		7E58F0C82690FCDD00A0B728 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E58F0C72690FCDC00A0B728 /* GoogleService-Info.plist */; };
 		7E68770526266303007F7CC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E68770426266303007F7CC0 /* AppDelegate.swift */; };
 		7E68770726266303007F7CC0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E68770626266303007F7CC0 /* SceneDelegate.swift */; };
 		7E68770926266303007F7CC0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E68770826266303007F7CC0 /* ViewController.swift */; };
@@ -15,6 +54,14 @@
 		7E68771126266304007F7CC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E68770F26266304007F7CC0 /* LaunchScreen.storyboard */; };
 		7E68771C26266304007F7CC0 /* Gay_CityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E68771B26266304007F7CC0 /* Gay_CityTests.swift */; };
 		7E68772726266304007F7CC0 /* Gay_CityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E68772626266304007F7CC0 /* Gay_CityUITests.swift */; };
+		7E7D392C263F785000590759 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7D392B263F785000590759 /* HomeViewController.swift */; };
+		7E912B1C26267E3500A785B7 /* SlidingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E912B1B26267E3500A785B7 /* SlidingViewController.swift */; };
+		7EF2734D2662D9F10047B6F2 /* WaysToGiveTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF2734C2662D9F10047B6F2 /* WaysToGiveTableController.swift */; };
+		7EF6E3BE2688200E0029B024 /* EventCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF6E3BD2688200E0029B024 /* EventCustomCell.swift */; };
+		7EF6E3C026882BC10029B024 /* EventDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF6E3BF26882BC10029B024 /* EventDetailsViewController.swift */; };
+		7EF9E1112662E7710038BEB6 /* TrainingAndOutreachWebview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF9E1102662E7710038BEB6 /* TrainingAndOutreachWebview.swift */; };
+		934ECBED856A122EA90D9372 /* Pods_Gay_City.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A46DFD0F2A6751766C513D52 /* Pods_Gay_City.framework */; };
+		F92E190B15AEDDB43BEEF222 /* Pods_Gay_City_Gay_CityUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CCEE67B5D0C9F4559ACA5A8 /* Pods_Gay_City_Gay_CityUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +82,48 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18A2983F8114B8C1C3F8BB5B /* Pods-Gay City-Gay CityUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gay City-Gay CityUITests.release.xcconfig"; path = "Target Support Files/Pods-Gay City-Gay CityUITests/Pods-Gay City-Gay CityUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2CCEE67B5D0C9F4559ACA5A8 /* Pods_Gay_City_Gay_CityUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gay_City_Gay_CityUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5157DA4EE6B9AAB204084FA9 /* Pods-Gay CityTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gay CityTests.release.xcconfig"; path = "Target Support Files/Pods-Gay CityTests/Pods-Gay CityTests.release.xcconfig"; sourceTree = "<group>"; };
+		5FCDAD30F93D6190C23A088C /* Pods-Gay City-Gay CityUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gay City-Gay CityUITests.debug.xcconfig"; path = "Target Support Files/Pods-Gay City-Gay CityUITests/Pods-Gay City-Gay CityUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7E06C53326360AF50002D196 /* rokkitt-bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "rokkitt-bold.ttf"; path = "../../../Downloads/rokkitt-bold.ttf"; sourceTree = "<group>"; };
+		7E06C53426360B1C0002D196 /* rokkitt-regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "rokkitt-regular.ttf"; path = "../../../Downloads/rokkitt-regular.ttf"; sourceTree = "<group>"; };
+		7E06F5ED2627F3EA007C5BBA /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		7E06F5F52627FD63007C5BBA /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		7E06F5FA2627FE5A007C5BBA /* data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = data.swift; sourceTree = "<group>"; };
+		7E09FE03266DD77400A993BC /* ResourceDatabaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourceDatabaseViewController.swift; sourceTree = "<group>"; };
+		7E09FE052675657500A993BC /* ResourceDatabaseCustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourceDatabaseCustomCell.swift; sourceTree = "<group>"; };
+		7E09FE072676E38200A993BC /* ResourceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourceViewController.swift; sourceTree = "<group>"; };
+		7E130E85266C1C6500E2C319 /* TrackBallotWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackBallotWebView.swift; sourceTree = "<group>"; };
+		7E130E87266C1C9800E2C319 /* FindVoteCenterWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindVoteCenterWebView.swift; sourceTree = "<group>"; };
+		7E1823D12666017500DA0089 /* TenWaysViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TenWaysViewController.swift; sourceTree = "<group>"; };
+		7E2E314C266C13C2009BB33D /* MakeAppointmentWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeAppointmentWebView.swift; sourceTree = "<group>"; };
+		7E2E314E266C1412009BB33D /* DonateWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonateWebView.swift; sourceTree = "<group>"; };
+		7E2E3150266C1496009BB33D /* CheckResultsWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckResultsWebView.swift; sourceTree = "<group>"; };
+		7E2E3152266C14E0009BB33D /* HealthcareEnrollWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthcareEnrollWebView.swift; sourceTree = "<group>"; };
+		7E2E3154266C1596009BB33D /* PrEPWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrEPWebView.swift; sourceTree = "<group>"; };
+		7E2E3156266C15F5009BB33D /* OrcaStudentWebview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrcaStudentWebview.swift; sourceTree = "<group>"; };
+		7E2E3158266C1628009BB33D /* OrcaNonStudentWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrcaNonStudentWebView.swift; sourceTree = "<group>"; };
+		7E2E315A266C1722009BB33D /* RegisterToVoteWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterToVoteWebView.swift; sourceTree = "<group>"; };
+		7E2E315C266C17A3009BB33D /* RequestAbsenteeBallotWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestAbsenteeBallotWebView.swift; sourceTree = "<group>"; };
+		7E2E315E266C1860009BB33D /* ChangeAddressWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeAddressWebView.swift; sourceTree = "<group>"; };
+		7E2E3160266C19DB009BB33D /* AccesibleVoting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccesibleVoting.swift; sourceTree = "<group>"; };
+		7E2E3162266C1A1B009BB33D /* FacebookWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookWebView.swift; sourceTree = "<group>"; };
+		7E2E3164266C1A4F009BB33D /* TwitterWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterWebView.swift; sourceTree = "<group>"; };
+		7E2E3166266C1A72009BB33D /* YoutubeWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeWebView.swift; sourceTree = "<group>"; };
+		7E2E3168266C1A9E009BB33D /* InstagramWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramWebView.swift; sourceTree = "<group>"; };
+		7E2E316A266C1AE8009BB33D /* VoterEligibilityWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoterEligibilityWebView.swift; sourceTree = "<group>"; };
+		7E2E316C266C1B17009BB33D /* CheckRegistrationWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckRegistrationWebView.swift; sourceTree = "<group>"; };
+		7E2E316E266C1BA3009BB33D /* CompleteRegistrationWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteRegistrationWebView.swift; sourceTree = "<group>"; };
+		7E2E3170266C1BCE009BB33D /* EmailCommunityWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailCommunityWebView.swift; sourceTree = "<group>"; };
+		7E390E40267E6ED00094FD89 /* EventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventViewController.swift; sourceTree = "<group>"; };
+		7E537F55265073F50014E758 /* TestResultsTableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestResultsTableController.swift; sourceTree = "<group>"; };
+		7E537F572651F8A40014E758 /* HealthcareTableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthcareTableController.swift; sourceTree = "<group>"; };
+		7E58F0BF268FAD0E00A0B728 /* ResourceDatabaseSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourceDatabaseSearchView.swift; sourceTree = "<group>"; };
+		7E58F0C1268FC6CE00A0B728 /* EventWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventWebView.swift; sourceTree = "<group>"; };
+		7E58F0C32690272400A0B728 /* QCCEventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QCCEventViewController.swift; sourceTree = "<group>"; };
+		7E58F0C526902B9700A0B728 /* QCCEventDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QCCEventDetailsViewController.swift; sourceTree = "<group>"; };
+		7E58F0C72690FCDC00A0B728 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		7E68770126266303007F7CC0 /* Gay City.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gay City.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E68770426266303007F7CC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7E68770626266303007F7CC0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +138,17 @@
 		7E68772226266304007F7CC0 /* Gay CityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gay CityUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E68772626266304007F7CC0 /* Gay_CityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gay_CityUITests.swift; sourceTree = "<group>"; };
 		7E68772826266304007F7CC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E7D392B263F785000590759 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		7E912B1B26267E3500A785B7 /* SlidingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlidingViewController.swift; sourceTree = "<group>"; };
+		7EF2734C2662D9F10047B6F2 /* WaysToGiveTableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaysToGiveTableController.swift; sourceTree = "<group>"; };
+		7EF6E3BD2688200E0029B024 /* EventCustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCustomCell.swift; sourceTree = "<group>"; };
+		7EF6E3BF26882BC10029B024 /* EventDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetailsViewController.swift; sourceTree = "<group>"; };
+		7EF9E1102662E7710038BEB6 /* TrainingAndOutreachWebview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingAndOutreachWebview.swift; sourceTree = "<group>"; };
+		94F6DA9E95983AF98EED8730 /* Pods-Gay CityTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gay CityTests.debug.xcconfig"; path = "Target Support Files/Pods-Gay CityTests/Pods-Gay CityTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9F3BA185D5525ED9041A9DDA /* Pods_Gay_CityTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gay_CityTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A46DFD0F2A6751766C513D52 /* Pods_Gay_City.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gay_City.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB073A95E739A002322845C5 /* Pods-Gay City.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gay City.release.xcconfig"; path = "Target Support Files/Pods-Gay City/Pods-Gay City.release.xcconfig"; sourceTree = "<group>"; };
+		C427EA1DF756EED4EEF48F0F /* Pods-Gay City.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gay City.debug.xcconfig"; path = "Target Support Files/Pods-Gay City/Pods-Gay City.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +156,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				934ECBED856A122EA90D9372 /* Pods_Gay_City.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +164,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48B12D7D1E3F9668B0EB3E0A /* Pods_Gay_CityTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,19 +172,53 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F92E190B15AEDDB43BEEF222 /* Pods_Gay_City_Gay_CityUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7E2E314B266C1251009BB33D /* WebViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				7EF9E1102662E7710038BEB6 /* TrainingAndOutreachWebview.swift */,
+				7E2E314C266C13C2009BB33D /* MakeAppointmentWebView.swift */,
+				7E130E87266C1C9800E2C319 /* FindVoteCenterWebView.swift */,
+				7E2E314E266C1412009BB33D /* DonateWebView.swift */,
+				7E2E3150266C1496009BB33D /* CheckResultsWebView.swift */,
+				7E2E3152266C14E0009BB33D /* HealthcareEnrollWebView.swift */,
+				7E2E3154266C1596009BB33D /* PrEPWebView.swift */,
+				7E2E3156266C15F5009BB33D /* OrcaStudentWebview.swift */,
+				7E2E3158266C1628009BB33D /* OrcaNonStudentWebView.swift */,
+				7E2E315A266C1722009BB33D /* RegisterToVoteWebView.swift */,
+				7E2E315C266C17A3009BB33D /* RequestAbsenteeBallotWebView.swift */,
+				7E2E315E266C1860009BB33D /* ChangeAddressWebView.swift */,
+				7E2E3160266C19DB009BB33D /* AccesibleVoting.swift */,
+				7E2E3162266C1A1B009BB33D /* FacebookWebView.swift */,
+				7E2E3164266C1A4F009BB33D /* TwitterWebView.swift */,
+				7E2E3166266C1A72009BB33D /* YoutubeWebView.swift */,
+				7E2E3168266C1A9E009BB33D /* InstagramWebView.swift */,
+				7E2E316A266C1AE8009BB33D /* VoterEligibilityWebView.swift */,
+				7E2E316C266C1B17009BB33D /* CheckRegistrationWebView.swift */,
+				7E2E316E266C1BA3009BB33D /* CompleteRegistrationWebView.swift */,
+				7E2E3170266C1BCE009BB33D /* EmailCommunityWebView.swift */,
+				7E130E85266C1C6500E2C319 /* TrackBallotWebView.swift */,
+				7E58F0C1268FC6CE00A0B728 /* EventWebView.swift */,
+			);
+			path = WebViewControllers;
+			sourceTree = "<group>";
+		};
 		7E6876F826266303007F7CC0 = {
 			isa = PBXGroup;
 			children = (
+				7E7753B9263605CF00E8BF65 /* fonts */,
 				7E68770326266303007F7CC0 /* Gay City */,
 				7E68771A26266304007F7CC0 /* Gay CityTests */,
 				7E68772526266304007F7CC0 /* Gay CityUITests */,
 				7E68770226266303007F7CC0 /* Products */,
+				D185BCEB3B0600412DE4875C /* Pods */,
+				FF365D19F9E1C5F68E70FC2B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +235,33 @@
 		7E68770326266303007F7CC0 /* Gay City */ = {
 			isa = PBXGroup;
 			children = (
+				7E58F0C72690FCDC00A0B728 /* GoogleService-Info.plist */,
 				7E68770426266303007F7CC0 /* AppDelegate.swift */,
 				7E68770626266303007F7CC0 /* SceneDelegate.swift */,
 				7E68770826266303007F7CC0 /* ViewController.swift */,
 				7E68770A26266303007F7CC0 /* Main.storyboard */,
+				7E58F0C32690272400A0B728 /* QCCEventViewController.swift */,
+				7E390E40267E6ED00094FD89 /* EventViewController.swift */,
+				7EF6E3BF26882BC10029B024 /* EventDetailsViewController.swift */,
+				7E58F0C526902B9700A0B728 /* QCCEventDetailsViewController.swift */,
+				7EF6E3BD2688200E0029B024 /* EventCustomCell.swift */,
+				7E58F0BF268FAD0E00A0B728 /* ResourceDatabaseSearchView.swift */,
+				7E09FE072676E38200A993BC /* ResourceViewController.swift */,
 				7E68770D26266304007F7CC0 /* Assets.xcassets */,
+				7E912B1B26267E3500A785B7 /* SlidingViewController.swift */,
+				7EF2734C2662D9F10047B6F2 /* WaysToGiveTableController.swift */,
+				7E537F572651F8A40014E758 /* HealthcareTableController.swift */,
 				7E68770F26266304007F7CC0 /* LaunchScreen.storyboard */,
 				7E68771226266304007F7CC0 /* Info.plist */,
+				7E06F5ED2627F3EA007C5BBA /* MenuViewController.swift */,
+				7E2E314B266C1251009BB33D /* WebViewControllers */,
+				7E537F55265073F50014E758 /* TestResultsTableController.swift */,
+				7E06F5F52627FD63007C5BBA /* CustomCell.swift */,
+				7E06F5FA2627FE5A007C5BBA /* data.swift */,
+				7E1823D12666017500DA0089 /* TenWaysViewController.swift */,
+				7E7D392B263F785000590759 /* HomeViewController.swift */,
+				7E09FE03266DD77400A993BC /* ResourceDatabaseViewController.swift */,
+				7E09FE052675657500A993BC /* ResourceDatabaseCustomCell.swift */,
 			);
 			path = "Gay City";
 			sourceTree = "<group>";
@@ -128,6 +284,38 @@
 			path = "Gay CityUITests";
 			sourceTree = "<group>";
 		};
+		7E7753B9263605CF00E8BF65 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				7E06C53326360AF50002D196 /* rokkitt-bold.ttf */,
+				7E06C53426360B1C0002D196 /* rokkitt-regular.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		D185BCEB3B0600412DE4875C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C427EA1DF756EED4EEF48F0F /* Pods-Gay City.debug.xcconfig */,
+				BB073A95E739A002322845C5 /* Pods-Gay City.release.xcconfig */,
+				5FCDAD30F93D6190C23A088C /* Pods-Gay City-Gay CityUITests.debug.xcconfig */,
+				18A2983F8114B8C1C3F8BB5B /* Pods-Gay City-Gay CityUITests.release.xcconfig */,
+				94F6DA9E95983AF98EED8730 /* Pods-Gay CityTests.debug.xcconfig */,
+				5157DA4EE6B9AAB204084FA9 /* Pods-Gay CityTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FF365D19F9E1C5F68E70FC2B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A46DFD0F2A6751766C513D52 /* Pods_Gay_City.framework */,
+				2CCEE67B5D0C9F4559ACA5A8 /* Pods_Gay_City_Gay_CityUITests.framework */,
+				9F3BA185D5525ED9041A9DDA /* Pods_Gay_CityTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +323,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7E68772B26266304007F7CC0 /* Build configuration list for PBXNativeTarget "Gay City" */;
 			buildPhases = (
+				DBE5E3CA7495B944DB9E8687 /* [CP] Check Pods Manifest.lock */,
 				7E6876FD26266303007F7CC0 /* Sources */,
 				7E6876FE26266303007F7CC0 /* Frameworks */,
 				7E6876FF26266303007F7CC0 /* Resources */,
+				263C4712BBE0B6A1E25CF84F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +342,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7E68772E26266304007F7CC0 /* Build configuration list for PBXNativeTarget "Gay CityTests" */;
 			buildPhases = (
+				DB0ECD6728F8C361FCF1C9CC /* [CP] Check Pods Manifest.lock */,
 				7E68771326266304007F7CC0 /* Sources */,
 				7E68771426266304007F7CC0 /* Frameworks */,
 				7E68771526266304007F7CC0 /* Resources */,
@@ -170,9 +361,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7E68773126266304007F7CC0 /* Build configuration list for PBXNativeTarget "Gay CityUITests" */;
 			buildPhases = (
+				DC1FE736D16C57838BCA88F8 /* [CP] Check Pods Manifest.lock */,
 				7E68771E26266304007F7CC0 /* Sources */,
 				7E68771F26266304007F7CC0 /* Frameworks */,
 				7E68772026266304007F7CC0 /* Resources */,
+				14702349B966A91057DB56DB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -233,7 +426,10 @@
 			files = (
 				7E68771126266304007F7CC0 /* LaunchScreen.storyboard in Resources */,
 				7E68770E26266304007F7CC0 /* Assets.xcassets in Resources */,
+				7E296856263D239800ED0802 /* rokkitt-bold.ttf in Resources */,
+				7E296857263D239B00ED0802 /* rokkitt-regular.ttf in Resources */,
 				7E68770C26266303007F7CC0 /* Main.storyboard in Resources */,
+				7E58F0C82690FCDD00A0B728 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,14 +449,158 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		14702349B966A91057DB56DB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Gay City-Gay CityUITests/Pods-Gay City-Gay CityUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Gay City-Gay CityUITests/Pods-Gay City-Gay CityUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Gay City-Gay CityUITests/Pods-Gay City-Gay CityUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		263C4712BBE0B6A1E25CF84F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Gay City/Pods-Gay City-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Gay City/Pods-Gay City-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Gay City/Pods-Gay City-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB0ECD6728F8C361FCF1C9CC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Gay CityTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBE5E3CA7495B944DB9E8687 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Gay City-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC1FE736D16C57838BCA88F8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Gay City-Gay CityUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7E6876FD26266303007F7CC0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E09FE04266DD77400A993BC /* ResourceDatabaseViewController.swift in Sources */,
+				7E2E315D266C17A3009BB33D /* RequestAbsenteeBallotWebView.swift in Sources */,
+				7EF9E1112662E7710038BEB6 /* TrainingAndOutreachWebview.swift in Sources */,
+				7E130E86266C1C6500E2C319 /* TrackBallotWebView.swift in Sources */,
+				7E1823D22666017500DA0089 /* TenWaysViewController.swift in Sources */,
+				7E390E41267E6ED00094FD89 /* EventViewController.swift in Sources */,
 				7E68770926266303007F7CC0 /* ViewController.swift in Sources */,
+				7E2E314D266C13C2009BB33D /* MakeAppointmentWebView.swift in Sources */,
+				7E2E3155266C1596009BB33D /* PrEPWebView.swift in Sources */,
+				7E2E315F266C1860009BB33D /* ChangeAddressWebView.swift in Sources */,
+				7EF6E3BE2688200E0029B024 /* EventCustomCell.swift in Sources */,
+				7E2E3165266C1A4F009BB33D /* TwitterWebView.swift in Sources */,
+				7E2E316F266C1BA3009BB33D /* CompleteRegistrationWebView.swift in Sources */,
 				7E68770526266303007F7CC0 /* AppDelegate.swift in Sources */,
+				7E58F0C0268FAD0E00A0B728 /* ResourceDatabaseSearchView.swift in Sources */,
+				7E130E88266C1C9800E2C319 /* FindVoteCenterWebView.swift in Sources */,
+				7E2E3163266C1A1B009BB33D /* FacebookWebView.swift in Sources */,
+				7E09FE062675657500A993BC /* ResourceDatabaseCustomCell.swift in Sources */,
+				7E2E3159266C1628009BB33D /* OrcaNonStudentWebView.swift in Sources */,
 				7E68770726266303007F7CC0 /* SceneDelegate.swift in Sources */,
+				7E2E3161266C19DB009BB33D /* AccesibleVoting.swift in Sources */,
+				7E2E3153266C14E0009BB33D /* HealthcareEnrollWebView.swift in Sources */,
+				7E2E3157266C15F5009BB33D /* OrcaStudentWebview.swift in Sources */,
+				7E2E314F266C1412009BB33D /* DonateWebView.swift in Sources */,
+				7E2E3167266C1A72009BB33D /* YoutubeWebView.swift in Sources */,
+				7E537F582651F8A40014E758 /* HealthcareTableController.swift in Sources */,
+				7E7D392C263F785000590759 /* HomeViewController.swift in Sources */,
+				7E2E316D266C1B17009BB33D /* CheckRegistrationWebView.swift in Sources */,
+				7E58F0C2268FC6CE00A0B728 /* EventWebView.swift in Sources */,
+				7E537F56265073F50014E758 /* TestResultsTableController.swift in Sources */,
+				7E58F0C42690272400A0B728 /* QCCEventViewController.swift in Sources */,
+				7EF6E3C026882BC10029B024 /* EventDetailsViewController.swift in Sources */,
+				7E58F0C626902B9700A0B728 /* QCCEventDetailsViewController.swift in Sources */,
+				7E912B1C26267E3500A785B7 /* SlidingViewController.swift in Sources */,
+				7EF2734D2662D9F10047B6F2 /* WaysToGiveTableController.swift in Sources */,
+				7E06F5F62627FD63007C5BBA /* CustomCell.swift in Sources */,
+				7E2E3151266C1496009BB33D /* CheckResultsWebView.swift in Sources */,
+				7E2E3169266C1A9E009BB33D /* InstagramWebView.swift in Sources */,
+				7E09FE082676E38200A993BC /* ResourceViewController.swift in Sources */,
+				7E06F5FB2627FE5A007C5BBA /* data.swift in Sources */,
+				7E2E3171266C1BCE009BB33D /* EmailCommunityWebView.swift in Sources */,
+				7E2E315B266C1722009BB33D /* RegisterToVoteWebView.swift in Sources */,
+				7E2E316B266C1AE8009BB33D /* VoterEligibilityWebView.swift in Sources */,
+				7E06F5EE2627F3EA007C5BBA /* MenuViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,11 +773,13 @@
 		};
 		7E68772C26266304007F7CC0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C427EA1DF756EED4EEF48F0F /* Pods-Gay City.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Gay City/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -451,11 +793,13 @@
 		};
 		7E68772D26266304007F7CC0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB073A95E739A002322845C5 /* Pods-Gay City.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Gay City/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -469,6 +813,7 @@
 		};
 		7E68772F26266304007F7CC0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94F6DA9E95983AF98EED8730 /* Pods-Gay CityTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +835,7 @@
 		};
 		7E68773026266304007F7CC0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5157DA4EE6B9AAB204084FA9 /* Pods-Gay CityTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -511,6 +857,7 @@
 		};
 		7E68773226266304007F7CC0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FCDAD30F93D6190C23A088C /* Pods-Gay City-Gay CityUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -530,6 +877,7 @@
 		};
 		7E68773326266304007F7CC0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18A2983F8114B8C1C3F8BB5B /* Pods-Gay City-Gay CityUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
