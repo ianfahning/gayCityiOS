@@ -226,10 +226,6 @@ class QCCEventViewController: ViewController{
     
     struct DateData: Codable {
         var date: String
-        var hour: String
-        var minutes: String
-        var ampm: String
-        var timestamp: Int
     }
     
     struct Categories: Codable {
@@ -255,8 +251,10 @@ class QCCEventViewController: ViewController{
                 //removes all control characters becasue they cause errors
                 let dataStringRemovedCtrlChars = self.removingControlCharacters(inputString: dataString!)
                 let arrayOfEvents = self.getContentJson(inputString: dataStringRemovedCtrlChars)
-                let data = arrayOfEvents.data(using: .utf8)
-                self.eventData = self.parse(jsonData: data!)
+                if arrayOfEvents != ""{
+                    let data = arrayOfEvents.data(using: .utf8)
+                    self.eventData = self.parse(jsonData: data!)
+                }
                 self.isDone = true
             case .failure(let error):
                 print(error)
@@ -277,41 +275,42 @@ class QCCEventViewController: ViewController{
     }
     
     func getContentJson(inputString: String) -> String{
-        
         var finalString = ""
         //find begining of events
         let startIndex = inputString.endIndex(of: "content_json\":")!
         //find the end of the events
         
-        let endIndex = inputString.index(of: "},\"content_html\"")!
+        let endIndex = inputString.index(of: "},\"content_html\"")
         
-        var eventString = inputString[startIndex..<endIndex]
-        //the start of the array of events
-        var firstBracket = eventString.index(of: "[")!
-        eventString = inputString[firstBracket..<endIndex]
-        //find the start of the next array
-        var index = eventString.index(of: ":[{\"ID\"")
-        while(index != nil){
-            var currentChar: Int = eventString.distance(from: eventString.startIndex, to: index!)
-            //back track from the start of the next array to find the end of the first
-            while(eventString[currentChar] != "]"){
-                currentChar-=1
-            }
-            let endEventsArrayIndex = eventString.index(eventString.startIndex, offsetBy: currentChar)
-            //add the first array to the final string
-            finalString.append(eventString[eventString.startIndex..<endEventsArrayIndex] + ",")
-            //cut the first array out off the eventString
-            eventString = eventString[endEventsArrayIndex..<eventString.endIndex]
+        if endIndex != nil{
+            var eventString = inputString[startIndex..<endIndex!]
+            //the start of the array of events
+            var firstBracket = eventString.index(of: "[")!
+            eventString = inputString[firstBracket..<endIndex!]
             //find the start of the next array
-            firstBracket = eventString.index(of: "{")!
-            eventString = eventString[firstBracket..<endIndex]
-            //if nil there are no more arrays of events
-            index = eventString.index(of: ":[{\"ID\"")
+            var index = eventString.index(of: ":[{\"ID\"")
+            while(index != nil){
+                var currentChar: Int = eventString.distance(from: eventString.startIndex, to: index!)
+                //back track from the start of the next array to find the end of the first
+                while(eventString[currentChar] != "]"){
+                    currentChar-=1
+                }
+                let endEventsArrayIndex = eventString.index(eventString.startIndex, offsetBy: currentChar)
+                //add the first array to the final string
+                finalString.append(eventString[eventString.startIndex..<endEventsArrayIndex] + ",")
+                //cut the first array out off the eventString
+                eventString = eventString[endEventsArrayIndex..<eventString.endIndex]
+                //find the start of the next array
+                firstBracket = eventString.index(of: "{")!
+                eventString = eventString[firstBracket..<endIndex!]
+                //if nil there are no more arrays of events
+                index = eventString.index(of: ":[{\"ID\"")
+            }
+            //append the final array to the final string
+            finalString.append(eventString[eventString.startIndex..<eventString.endIndex] + "")
+            return finalString
         }
-        //append the final array to the final string
-        finalString.append(eventString[eventString.startIndex..<eventString.endIndex] + "")
-        return finalString
-        
+        return ""
     }
     
     func removingControlCharacters(inputString: String) -> String {
@@ -360,7 +359,7 @@ extension QCCEventViewController: UITableViewDelegate{
         let eventView = self.storyboard?.instantiateViewController(withIdentifier: "qccEventDetailsView") as? QCCEventDetailsViewController
         
         let event = eventData[indexPath.item]
-        eventView?.configure(eventTitle: event.data.title, eventStartTimeAndDate: (event.date.start.date + " " + event.date.start.hour + ":" + event.date.start.minutes + " " + event.date.start.ampm), eventBody: event.data.content, eventLink: event.data.meta.mec_more_info)
+        eventView?.configure(eventTitle: event.data.title, eventStartTimeAndDate: (event.date.start.date + " " + event.data.time.start), eventBody: event.data.content, eventLink: event.data.meta.mec_more_info)
         eventView?.modalPresentationStyle = .fullScreen
         self.present(eventView!, animated: true, completion: nil)
     }
@@ -375,7 +374,7 @@ extension QCCEventViewController: UITableViewDataSource{
         let cell = tableView.dequeueReusableCell(withIdentifier: "eventCell", for: indexPath) as! EventCustomCell
         
         let event = eventData[indexPath.item]
-        cell.configure(eventTitle: event.data.title, eventStartDate: event.date.start.date, eventStartTime: event.date.start.hour + ":" + event.date.start.minutes + " " + event.date.start.ampm)
+        cell.configure(eventTitle: event.data.title, eventStartDate: event.date.start.date, eventStartTime: event.data.time.start)
         
         return cell
     }

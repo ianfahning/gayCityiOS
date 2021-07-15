@@ -13,7 +13,6 @@ class QCCEventDetailsViewController: ViewController{
     @IBOutlet var eventStartTimeAndDateTextView: UILabel!
     @IBOutlet var eventBodyTextView: UILabel!
     
-    @IBOutlet var setReminderButton: UIButton!
     @IBOutlet var registerNowButton: UIButton!
     
     private var eventTitle: String = "-"

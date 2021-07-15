@@ -1,0 +1,6 @@
+framework module Pods_Gay_City {
+  umbrella header "Pods-Gay City-umbrella.h"
+
+  export *
+  module * { export * }
+}

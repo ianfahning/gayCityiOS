@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="i4Q-5f-je2">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="pMo-33-QCU">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
@@ -5654,39 +5654,19 @@ Today, Gay City remains the leading HIV/STI tester in king county, home to sever
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Event start date and time" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OfB-jp-nVw">
-                                                <rect key="frame" x="8" y="82" width="398" height="25.5"/>
+                                                <rect key="frame" x="8" y="44" width="398" height="25.5"/>
                                                 <fontDescription key="fontDescription" name="Rokkitt-Bold" family="Rokkitt" pointSize="22"/>
                                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Event body" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WMl-eC-dWe">
-                                                <rect key="frame" x="8" y="115" width="398" height="18"/>
+                                                <rect key="frame" x="8" y="77" width="398" height="18"/>
                                                 <fontDescription key="fontDescription" name="Rokkitt" family="Rokkitt" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DcJ-Z5-BV2">
-                                                <rect key="frame" x="139.5" y="44" width="135" height="30"/>
-                                                <color key="backgroundColor" red="0.64705882349999999" green="0.74117647060000003" blue="0.45098039220000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <fontDescription key="fontDescription" name="Rokkitt" family="Rokkitt" pointSize="17"/>
-                                                <state key="normal" title="   SET REMINDER     ">
-                                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                    <color key="titleShadowColor" systemColor="labelColor"/>
-                                                </state>
-                                                <userDefinedRuntimeAttributes>
-                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
-                                                        <real key="value" value="2"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                        <real key="value" value="1"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
-                                                        <color key="value" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                </userDefinedRuntimeAttributes>
-                                            </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XCL-hb-gNg">
-                                                <rect key="frame" x="139.5" y="141" width="135" height="30"/>
+                                                <rect key="frame" x="139.5" y="103" width="135" height="30"/>
                                                 <color key="backgroundColor" red="0.64705882349999999" green="0.74117647060000003" blue="0.45098039220000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <fontDescription key="fontDescription" name="Rokkitt" family="Rokkitt" pointSize="17"/>
                                                 <state key="normal" title="   REGISTER NOW    ">
@@ -5713,20 +5693,18 @@ Today, Gay City remains the leading HIV/STI tester in king county, home to sever
                                         <constraints>
                                             <constraint firstItem="uyE-CJ-4Gu" firstAttribute="top" secondItem="Rar-Hl-Cop" secondAttribute="top" constant="8" id="0o6-ga-XrS"/>
                                             <constraint firstItem="WMl-eC-dWe" firstAttribute="leading" secondItem="Rar-Hl-Cop" secondAttribute="leading" constant="8" id="1ev-75-xfG"/>
-                                            <constraint firstItem="DcJ-Z5-BV2" firstAttribute="centerX" secondItem="Rar-Hl-Cop" secondAttribute="centerX" id="23v-jq-SEo"/>
                                             <constraint firstItem="WMl-eC-dWe" firstAttribute="centerX" secondItem="Rar-Hl-Cop" secondAttribute="centerX" id="78U-SL-fu2"/>
                                             <constraint firstAttribute="trailing" secondItem="uyE-CJ-4Gu" secondAttribute="trailing" constant="8" id="9gF-A5-PBR"/>
                                             <constraint firstItem="XCL-hb-gNg" firstAttribute="centerX" secondItem="Rar-Hl-Cop" secondAttribute="centerX" id="DEA-JC-BgM"/>
                                             <constraint firstItem="WMl-eC-dWe" firstAttribute="top" secondItem="OfB-jp-nVw" secondAttribute="bottom" constant="7.5" id="OAC-dW-G17"/>
-                                            <constraint firstItem="DcJ-Z5-BV2" firstAttribute="top" secondItem="uyE-CJ-4Gu" secondAttribute="bottom" constant="7.5" id="POt-jC-iMh"/>
-                                            <constraint firstItem="OfB-jp-nVw" firstAttribute="top" secondItem="DcJ-Z5-BV2" secondAttribute="bottom" constant="8" symbolic="YES" id="SVn-Jb-ngS"/>
                                             <constraint firstItem="OfB-jp-nVw" firstAttribute="leading" secondItem="Rar-Hl-Cop" secondAttribute="leading" constant="8" id="YtT-Ky-xG8"/>
-                                            <constraint firstAttribute="bottom" secondItem="XCL-hb-gNg" secondAttribute="bottom" constant="606" id="jhZ-it-oLb"/>
+                                            <constraint firstAttribute="bottom" secondItem="XCL-hb-gNg" secondAttribute="bottom" constant="644" id="ZXg-Ru-jMC"/>
                                             <constraint firstItem="XCL-hb-gNg" firstAttribute="top" secondItem="WMl-eC-dWe" secondAttribute="bottom" constant="8" symbolic="YES" id="loK-cP-xMy"/>
                                             <constraint firstAttribute="trailing" secondItem="WMl-eC-dWe" secondAttribute="trailing" constant="8" id="qsn-Ge-hkC"/>
                                             <constraint firstItem="uyE-CJ-4Gu" firstAttribute="leading" secondItem="Rar-Hl-Cop" secondAttribute="leading" constant="8" id="tLS-1l-Rg3"/>
                                             <constraint firstAttribute="trailing" secondItem="OfB-jp-nVw" secondAttribute="trailing" constant="8" id="tOS-7v-Yvh"/>
                                             <constraint firstItem="uyE-CJ-4Gu" firstAttribute="centerX" secondItem="Rar-Hl-Cop" secondAttribute="centerX" id="uDH-Yg-h8l"/>
+                                            <constraint firstItem="OfB-jp-nVw" firstAttribute="top" secondItem="uyE-CJ-4Gu" secondAttribute="bottom" constant="7.5" id="x1v-8Y-pMr"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -5789,7 +5767,6 @@ Today, Gay City remains the leading HIV/STI tester in king county, home to sever
                         <outlet property="eventStartTimeAndDateTextView" destination="OfB-jp-nVw" id="ZXh-Cu-Tis"/>
                         <outlet property="eventTitleTextView" destination="uyE-CJ-4Gu" id="3XP-mp-jgB"/>
                         <outlet property="registerNowButton" destination="XCL-hb-gNg" id="MZF-FZ-5no"/>
-                        <outlet property="setReminderButton" destination="DcJ-Z5-BV2" id="hkl-jY-RM3"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PcN-Ak-ZA8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -5951,6 +5928,7 @@ Today, Gay City remains the leading HIV/STI tester in king county, home to sever
                                 <color key="color" red="0.49803921569999998" green="0.60392156860000001" blue="0.2470588235" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </activityIndicatorView>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="GCC-Vs-gcS"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="xgx-54-MKL" firstAttribute="top" secondItem="rdQ-IV-8ac" secondAttribute="top" id="B55-q3-C6N"/>
@@ -5977,8 +5955,8 @@ Today, Gay City remains the leading HIV/STI tester in king county, home to sever
                         <rect key="frame" x="0.0" y="0.0" width="414" height="900"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sDe-RD-a1i">
-                                <rect key="frame" x="0.0" y="90" width="414" height="813"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sDe-RD-a1i">
+                                <rect key="frame" x="0.0" y="90" width="414" height="776"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jfk-7T-o3X" userLabel="contentView">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="777"/>
@@ -5990,39 +5968,19 @@ Today, Gay City remains the leading HIV/STI tester in king county, home to sever
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Event start date and time" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i9z-90-m8L">
-                                                <rect key="frame" x="8" y="82" width="398" height="25.5"/>
+                                                <rect key="frame" x="8" y="44" width="398" height="25.5"/>
                                                 <fontDescription key="fontDescription" name="Rokkitt-Bold" family="Rokkitt" pointSize="22"/>
                                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Event body" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xUS-ba-Zj1">
-                                                <rect key="frame" x="8" y="115" width="398" height="18"/>
+                                                <rect key="frame" x="8" y="77" width="398" height="18"/>
                                                 <fontDescription key="fontDescription" name="Rokkitt" family="Rokkitt" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q8B-B1-6Vt">
-                                                <rect key="frame" x="139.5" y="44" width="135" height="30"/>
-                                                <color key="backgroundColor" red="0.64705882349999999" green="0.74117647060000003" blue="0.45098039220000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <fontDescription key="fontDescription" name="Rokkitt" family="Rokkitt" pointSize="17"/>
-                                                <state key="normal" title="   SET REMINDER     ">
-                                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                    <color key="titleShadowColor" systemColor="labelColor"/>
-                                                </state>
-                                                <userDefinedRuntimeAttributes>
-                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
-                                                        <real key="value" value="2"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                        <real key="value" value="1"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
-                                                        <color key="value" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                </userDefinedRuntimeAttributes>
-                                            </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ywV-dV-9G9">
-                                                <rect key="frame" x="139.5" y="141" width="135" height="30"/>
+                                                <rect key="frame" x="139.5" y="103" width="135" height="30"/>
                                                 <color key="backgroundColor" red="0.64705882349999999" green="0.74117647060000003" blue="0.45098039220000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <fontDescription key="fontDescription" name="Rokkitt" family="Rokkitt" pointSize="17"/>
                                                 <state key="normal" title="   REGISTER NOW    ">
@@ -6045,10 +6003,7 @@ Today, Gay City remains the leading HIV/STI tester in king county, home to sever
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
                                             <constraint firstItem="xUS-ba-Zj1" firstAttribute="centerX" secondItem="Jfk-7T-o3X" secondAttribute="centerX" id="0Xm-Jk-dsd"/>
-                                            <constraint firstAttribute="bottom" secondItem="ywV-dV-9G9" secondAttribute="bottom" constant="606" id="1Ly-JG-faU"/>
-                                            <constraint firstItem="i9z-90-m8L" firstAttribute="top" secondItem="Q8B-B1-6Vt" secondAttribute="bottom" constant="8" symbolic="YES" id="1Sn-Gb-YcK"/>
                                             <constraint firstItem="i9k-UH-h5w" firstAttribute="centerX" secondItem="Jfk-7T-o3X" secondAttribute="centerX" id="2fG-6i-dFQ"/>
-                                            <constraint firstItem="Q8B-B1-6Vt" firstAttribute="top" secondItem="i9k-UH-h5w" secondAttribute="bottom" constant="7.5" id="4Iy-Qc-L9A"/>
                                             <constraint firstAttribute="trailing" secondItem="i9k-UH-h5w" secondAttribute="trailing" constant="8" id="9at-Pc-fgk"/>
                                             <constraint firstItem="i9k-UH-h5w" firstAttribute="leading" secondItem="Jfk-7T-o3X" secondAttribute="leading" constant="8" id="IPm-cL-CuK"/>
                                             <constraint firstAttribute="trailing" secondItem="i9z-90-m8L" secondAttribute="trailing" constant="8" id="RGc-9G-7b4"/>
@@ -6057,7 +6012,8 @@ Today, Gay City remains the leading HIV/STI tester in king county, home to sever
                                             <constraint firstItem="i9k-UH-h5w" firstAttribute="top" secondItem="Jfk-7T-o3X" secondAttribute="top" constant="8" id="UCX-0E-O4P"/>
                                             <constraint firstAttribute="trailing" secondItem="xUS-ba-Zj1" secondAttribute="trailing" constant="8" id="WIc-zY-yte"/>
                                             <constraint firstItem="ywV-dV-9G9" firstAttribute="top" secondItem="xUS-ba-Zj1" secondAttribute="bottom" constant="8" symbolic="YES" id="oOG-sv-7V1"/>
-                                            <constraint firstItem="Q8B-B1-6Vt" firstAttribute="centerX" secondItem="Jfk-7T-o3X" secondAttribute="centerX" id="qih-BK-iIO"/>
+                                            <constraint firstAttribute="bottom" secondItem="ywV-dV-9G9" secondAttribute="bottom" constant="644" id="w0d-zf-X2D"/>
+                                            <constraint firstItem="i9z-90-m8L" firstAttribute="top" secondItem="i9k-UH-h5w" secondAttribute="bottom" constant="7.5" id="wle-mr-J7w"/>
                                             <constraint firstItem="ywV-dV-9G9" firstAttribute="centerX" secondItem="Jfk-7T-o3X" secondAttribute="centerX" id="wsg-Ag-goy"/>
                                             <constraint firstItem="xUS-ba-Zj1" firstAttribute="leading" secondItem="Jfk-7T-o3X" secondAttribute="leading" constant="8" id="yD2-dZ-4g8"/>
                                         </constraints>
@@ -6122,7 +6078,6 @@ Today, Gay City remains the leading HIV/STI tester in king county, home to sever
                         <outlet property="eventStartTimeAndDateTextView" destination="i9z-90-m8L" id="5WL-q3-5vC"/>
                         <outlet property="eventTitleTextView" destination="i9k-UH-h5w" id="7wi-Fq-jDF"/>
                         <outlet property="registerNowButton" destination="ywV-dV-9G9" id="aXd-Jj-Skb"/>
-                        <outlet property="setReminderButton" destination="Q8B-B1-6Vt" id="4hV-Fd-bHP"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ap8-ky-luF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -6141,7 +6096,7 @@ Today, Gay City remains the leading HIV/STI tester in king county, home to sever
         <segue reference="b7y-ul-hr3"/>
         <segue reference="SRh-hN-d3E"/>
         <segue reference="Qiu-Pr-UvW"/>
-        <segue reference="MXK-jk-BH7"/>
+        <segue reference="FGF-XN-iI4"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="arrow.backward" catalog="system" width="128" height="98"/>

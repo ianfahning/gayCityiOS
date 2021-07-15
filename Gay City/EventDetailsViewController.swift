@@ -12,7 +12,6 @@ class EventDetailsViewController: ViewController{
     @IBOutlet var eventStartTimeAndDateTextView: UILabel!
     @IBOutlet var eventBodyTextView: UILabel!
     
-    @IBOutlet var setReminderButton: UIButton!
     @IBOutlet var registerNowButton: UIButton!
     
     private var eventTitle: String = "-"
@@ -20,7 +19,6 @@ class EventDetailsViewController: ViewController{
     private var eventBody: String = "-"
     private var eventLink: String = ""
     
-   // let store = EKEventStore()
     
     
     override func viewDidLoad() {
@@ -28,13 +26,8 @@ class EventDetailsViewController: ViewController{
         eventTitleTextView.text = eventTitle
         eventStartTimeAndDateTextView.text  = eventStartTimeAndDate
         eventBodyTextView.attributedText = eventBody.htmlToAttributedString
-        setReminderButton.addTarget(self, action: #selector(getter: self.setReminderButton), for: .touchUpInside)
     }
     
-    
-    @objc func reminderButtonClicked(_ sender: AnyObject?){
-        
-    }
     
     func configure(eventTitle: String, eventStartTimeAndDate: String, eventBody: String, eventLink: String){
         self.eventTitle = eventTitle

@@ -1,0 +1,6 @@
+framework module Pods_Gay_City_Gay_CityUITests {
+  umbrella header "Pods-Gay City-Gay CityUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
